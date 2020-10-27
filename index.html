@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freaky Friday</title>
+    <style>
+        .hovedside {
+            width: 80%;
+            margin: auto;
+            background-color: peru;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        a {
+            text-decoration: none;
+        }
+        .a_menu {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .ul_menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow: hidden;
+            }
+
+        .li_menu {
+            float: left;
+            }
+
+        .li a {
+            display: block;
+            padding: 10px;
+            color: black;
+            }
+        .a_menu:hover{
+            background: #ddd;
+            color: black;
+        }
+        .header {
+            width: 100%;
+            margin: auto;
+            background-image: url('https://img.lovepik.com/photo/40108/9290.jpg_wh860.jpg');
+            background-repeat: repeat-x;
+            background-attachment: fixed;
+        }
+        h1 {
+            padding: 10px;
+        }
+        .left_content {
+            width: 68%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .right_content {
+            width: 28%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        
+        .search_containter {
+            width: 100%;
+        }
+        .p_info {
+            padding: 5px;
+        }
+        .left_img {
+            width: 100%;
+            padding: 10px;
+        }
+        h2 {
+            width: 100%;
+            padding-left: 10px;
+        }
+        .p_date {
+            width: 100%;
+            padding-left: 10px;
+        }
+        .p_ingredients {
+            width: 100%;
+            padding-left: 10px;
+        }
+        .ol_recipe {
+            margin: left;
+            width: 70%;
+        }
+        .right_everything{
+            padding: 5px;
+            border: 4px solid rgb(37, 41, 46);
+        }
+    </style>
+</head>
+<body>
+    <div class="hovedside">
+        <div class="header">
+            <h1><i>Bake with me</i></h1>
+        </div>
+            <ul class="ul_menu">
+                <li class="li_menu"><a class="a_menu" href="#">Cake desserts</a></li>
+                <li class="li_menu"><a class="a_menu" href="#">Healthy recipes</a></li>
+                <li class="li_menu"><a class="a_menu" href="#">Bread baking</a></li>
+             </ul>
+
+        <div class="left_content">
+            <div class="left_img">
+                <img src="https://www.bunsinmyoven.com/wp-content/uploads/2013/01/nutella-brownie-recipe.jpg" alt="Picture of brownies">
+            </div>
+
+            <h2>Brownies</h2>
+            <p class="p_date">Date: 19. October 2020</p>
+            <!-- Recipe from https://tasty.co/recipe/ultimate-brownies -->
+            <p class="p_ingredients"><strong>Ingredients</strong> <br> For 24 brownies <br> <br>
+                2 ½ sticks unsalted butter, plus more, softened, for greasing <br> 
+                8 oz good-quality semisweet chocolate (225 g), or bittersweet chocolate, 60-70% cacao, roughly chopped <br>
+                ¾ cup unsweetened dutch process cocoa powder (90 g), divided <br>
+                1 tablespoon espresso powder <br>
+                2 cups granulated sugar (400 g) <br>
+                ½ cup dark brown sugar (110 g), packed <br>
+                2 teaspoons vanilla extract <br>
+                2 teaspoons kosher salt <br>
+                6 large eggs <br>
+                1 cup all-purpose flour (125 g) <br>
+                flaky sea salt, for sprinkling</p>
+                <br></br>
+            <ol class="ol_recipe">
+                <li>Grease a 9x13-inch (23x33-cm) dark metal pan with softened butter, then line with parchment paper, leaving overhang on all sides. Grease the parchment with softened butter.</li>
+                <li>Combine the chopped chocolate, ¼ cup (30 g) of cocoa powder, and espresso powder in a heatproof liquid measuring cup or medium bowl and set aside.</li>
+                <li>Add the butter to a small saucepan over medium heat and cook until the butter just comes to a vigorous simmer, about 5 minutes, swirling the pan occasionally. Immediately pour the hot butter over the chocolate mixture and let sit for 2 minutes. Whisk until the chocolate is completely smooth and melted, then set aside.</li>
+                <li>Combine the granulated sugar, brown sugar, vanilla extract, salt, and eggs in a large bowl. Beat with an electric hand mixer on high speed until light and fluffy, about 10 minutes. It will be similar to the texture of very thick pancake batter.</li>
+                <li>With the mixer on, pour in the slightly cooled chocolate and butter mixture and blend until smooth.</li>
+                <li>Position a rack in the middle of the oven and preheat to 350°F (180°C).</li>
+                <li>Sift in the flour and remaining cocoa powder and use a rubber spatula to gently fold until just combined.</li>
+                <li>Pour the batter into the prepared baking pan and smooth the top with a spatula. Bake until lightly puffed on top, about 20 minutes.</li>
+                <li>Remove the baking pan from the oven using oven mitts or kitchen towels, then lightly drop the pan on a flat surface 1-2 times until the brownies deflate slightly. Sprinkle with flaky sea salt.</li>
+                <li>Return the pan to the oven and bake until a wooden skewer inserted into the center of the brownies comes out fudgy but the edges look cooked through, about 20 minutes more. The center of the brownies will seem under-baked, but the brownies will continue to set as they cool.</li>
+                <li>Set the brownies on a cooling rack and cool completely in the pan.</li>
+                <li>Use the parchment paper to lift the cooled brownies out of the pan. Cut into 24 bars and serve immediately.</li>
+                <li>Enjoy!</li>
+            </ol>
+        </div>
+        
+        <div class="right_content">
+            <div class="right_everything">
+                <div class="search-container">
+                    <form action="#">
+                        <input type="text" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+
+                <p class="p_info">
+                    My name is Ali Amin, and I love making cakes and desserts. This is why I made this website. 
+                    In this website, i make cakes, healthy recipes and breads, and share it with you viewers. 
+                    I write the recipes for you to try out, and hopefully enjoy. 
+                    If you have any questions, you can contact me here: <strong>Ali@bakewithme.com</strong> 
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
