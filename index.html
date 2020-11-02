@@ -6,7 +6,7 @@
     <title>Freaky Friday</title>
     <style>
         .hovedside {
-            width: 80%;
+            width: 90%;
             margin: auto;
             background-color: bisque;
             display: flex;
@@ -77,6 +77,15 @@
         .left_img {
             width: 100%;
             padding: 10px;
+            margin-bottom: 5px;
+            display: flex;
+        }
+        .left_text {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            display: flex;
+            flex-wrap: wrap;
         }
         h2 {
             width: 100%;
@@ -99,6 +108,16 @@
             padding: 5px;
             border: 4px solid rgb(37, 41, 46);
         }
+        @media only screen and (max-width:1200px){
+            h1 {
+            font-size: 30px;
+            padding: 10px;
+            }
+            img {
+                width: 312px;
+                height: 208px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -115,7 +134,8 @@
             <div class="left_img">
                 <img src="https://www.bunsinmyoven.com/wp-content/uploads/2013/01/nutella-brownie-recipe.jpg" alt="Picture of brownies">
             </div>
-
+        
+        <div class="left_text">
             <h2>Brownies</h2>
             <p class="p_date">Date: 19. October 2020</p>
             <!-- Recipe from https://tasty.co/recipe/ultimate-brownies -->
@@ -147,6 +167,7 @@
                 <li>Use the parchment paper to lift the cooled brownies out of the pan. Cut into 24 bars and serve immediately.</li>
                 <li>Enjoy!</li>
             </ol>
+        </div>
         </div>
         
         <div class="right_content">

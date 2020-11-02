@@ -6,7 +6,7 @@
     <title>Freaky Friday</title>
     <style>
         .hovedside {
-            width: 80%;
+            width: 90%;
             margin: auto;
             background-color: bisque;
             display: flex;
@@ -77,6 +77,15 @@
         .left_img {
             width: 100%;
             padding: 10px;
+            margin-bottom: 5px;
+            display: flex;
+        }
+        .left_text {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            display: flex;
+            flex-wrap: wrap;
         }
         h2 {
             width: 100%;
@@ -98,6 +107,16 @@
         .right_everything{
             padding: 5px;
             border: 4px solid rgb(37, 41, 46);
+        }
+        @media only screen and (max-width:1200px){
+            h1 {
+            font-size: 30px;
+            padding: 10px;
+            }
+            img {
+                width: 312px;
+                height: 208px;
+            }
         }
     </style>
 </head>
